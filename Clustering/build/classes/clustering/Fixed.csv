@@ -1,0 +1,13 @@
+docente.telefono, tiempo,docente.codigo,docente.fecha_nacimiento,contrato.codigo,contrato.docente,contrato.fecha_contrato,contrato.sueldo,docente.ci,docente.nombres,docente.apellidos,docente.direccion,caso de prueba
+0,2479,0,0,1,1,1,1,0,0,0,0,FContrato obtener
+0,27,0,0,1,1,1,1,0,0,0,0,FContrato insertar
+0,2462,0,0,1,1,1,1,0,0,0,0,FContrato obtener
+0,4,0,0,1,1,1,1,0,0,0,0,FContrato insertar
+0,2274,0,0,1,1,1,1,0,0,0,0,FContrato obtener
+0,4,0,0,1,1,1,1,0,0,0,0,FContrato insertar
+1,2665,1,1,0,0,0,0,1,1,1,1,FDocente obtener
+1,3,1,1,0,0,0,0,1,1,1,1,FDocente insertar
+0,4236,0,0,1,1,1,1,0,0,0,0,FContrato obtener
+0,46,0,0,1,1,1,1,0,0,0,0,FContrato insertar
+1,1826,1,1,0,0,0,0,1,1,1,1,FDocente obtener
+1,3,1,1,0,0,0,0,1,1,1,1,FDocente insertar

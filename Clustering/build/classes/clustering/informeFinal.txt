@@ -1,0 +1,90 @@
+Seed : 10
+
+EM
+==
+
+Number of clusters selected by cross validation: 2
+Number of iterations performed: 1
+
+
+                             Cluster
+Attribute                          0         1
+                              (0.67)    (0.33)
+===============================================
+docente.telefono
+  mean                              0         1
+  std. dev.                         0         0
+
+ tiempo
+  mean                         1441.5   1124.25
+  std. dev.                 1528.9357  1159.824
+
+docente.codigo
+  mean                              0         1
+  std. dev.                         0         0
+
+docente.fecha_nacimiento
+  mean                              0         1
+  std. dev.                         0         0
+
+contrato.codigo
+  mean                              1         0
+  std. dev.                         0         0
+
+contrato.docente
+  mean                              1         0
+  std. dev.                         0         0
+
+contrato.fecha_contrato
+  mean                              1         0
+  std. dev.                         0         0
+
+contrato.sueldo
+  mean                              1         0
+  std. dev.                         0         0
+
+docente.ci
+  mean                              0         1
+  std. dev.                         0         0
+
+docente.nombres
+  mean                              0         1
+  std. dev.                         0         0
+
+docente.apellidos
+  mean                              0         1
+  std. dev.                         0         0
+
+docente.direccion
+  mean                              0         1
+  std. dev.                         0         0
+
+Clustered Instances
+
+0       8 ( 67%)
+1       4 ( 33%)
+
+
+Log likelihood: 105.62775
+
+
+Class attribute: caso de prueba
+Classes to Clusters:
+
+ 0 1  <-- assigned to cluster
+ 4 0 | FContrato obtener
+ 4 0 | FContrato insertar
+ 0 2 | FDocente obtener
+ 0 2 | FDocente insertar
+
+Cluster 0 <-- FContrato obtener
+Cluster 1 <-- FDocente obtener
+
+Incorrectly clustered instances :	6.0	 50      %
+
+ASIGNACIÓN DE CASOS DE PRUEBA A LOS CLUSTER
+
+Cluster asignados: 0
+Cluster asignados: 1
+Cluster 0:  FContrato obtener, FContrato insertar,
+Cluster 1:  FDocente obtener, FDocente insertar,
